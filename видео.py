@@ -1,6 +1,6 @@
 import cv2
 
-video = cv2.VideoCapture('videos/wind-turbines-in-the-sea.mp4')
+video = cv2.VideoCapture('wind-turbines-in-the-sea.mp4')
 
 while True:
     success, img = video.read()
